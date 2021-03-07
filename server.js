@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 // Calling the express() and setting the PORT 
 const app = express();
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8082;
 // require('./routes/routes')(app);
 
 app.use(express.urlencoded({ extended: true }));
